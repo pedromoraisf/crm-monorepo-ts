@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "robot:go": "./scripts/pull.sh",
     "lint": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js",
     "lint:fix": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js --fix",
     "style:check": "prettier --check './packages/script/src/*.js' './packages/server/src/*.js' './packages/server/src/controllers/*.js'",
