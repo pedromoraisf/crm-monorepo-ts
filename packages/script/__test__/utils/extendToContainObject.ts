@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 expect.extend({
   toContainObject(received, argument) {
     const pass = this.equals(
