@@ -1,0 +1,11 @@
+{
+  "name": "senai-jornada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pedromoraisf <pedro.morais1997@gmail.com>",
+  "license": "MIT", 
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
+}
