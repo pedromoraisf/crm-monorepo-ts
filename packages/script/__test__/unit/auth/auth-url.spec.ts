@@ -8,8 +8,13 @@ describe("Autenticação pela url", () => {
     const sample = {
       id: 0,
       url: `${testEnv}/?sccripts`,
+      inputPath: "",
+      formPath: "",
+      formElement: null,
+      inputElement: null,
       msg: "",
       isValid: false,
+      latestAction: 0,
     };
 
     AuthUrl(sample);

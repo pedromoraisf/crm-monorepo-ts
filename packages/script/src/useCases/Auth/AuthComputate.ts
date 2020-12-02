@@ -33,11 +33,10 @@ export const AuthComputate = async (
     if (requestScript.status !== 200 && requestScript.data.status === 200)
       throw { e: "Erro na requisição" };
 
-    const isolateScriptMessage = requestScript.data.scriptMessage;
-
-    // Fazendo o bootstrap no objeto
-    scriptInstance.msg = isolateScriptMessage;
-    scriptInstance.isValid = true;
+    // Fazendo o bootstraping no objeto
+    scriptInstance.msg = requestScript.data.msg;
+    scriptInstance.inputPath = requestScript.data.inputPath;
+    scriptInstance.formPath = requestScript.data.formPath;
   } catch (e) {
     console.log(JSON.stringify(e));
     scriptInstance.isValid = false;
