@@ -56,29 +56,28 @@ const extractScriptId = (urlReceive: string): number => {
 
 /**
  * @description Responsável por validar a url recebida e autenticar
- * @param initializeObject
+ * @param scriptInstance
  * @param urlReceive
  */
 export const AuthUrl = async (
-  initializeObject: IStorageObject,
-  urlReceive: string
-): Promise<IStorageObject> => {
+  scriptInstance: IStorageObject
+): Promise<boolean> => {
   // Retorno a url "tratada" pras possiveis validações
-  const returnStringUrl = treatStringUrl(urlReceive);
+  const returnStringUrl = treatStringUrl(scriptInstance.url);
 
   // Verifico se a url é valida de acordo com os requisitos esperados
   const urlIsValid = validateUrl(returnStringUrl);
   if (!urlIsValid) {
-    initializeObject.isValid = false;
-    return initializeObject;
+    scriptInstance.isValid = false;
+    return false;
   }
 
   // Extraio o id do script vindo no query param
   const scriptId = extractScriptId(returnStringUrl);
-  initializeObject.id = scriptId;
+  scriptInstance.id = scriptId;
   if (scriptId === 0) {
-    initializeObject.isValid = false;
-    return initializeObject;
+    scriptInstance.isValid = false;
+    return false;
   }
 
   // Realizo a chamada a api pra verificação do script setado
@@ -91,14 +90,14 @@ export const AuthUrl = async (
     const isolateScriptMessage = requestScript.data.scriptMessage;
 
     // Fazendo o bootstrap no objeto
-    initializeObject.url = returnStringUrl;
-    initializeObject.msg = isolateScriptMessage;
-    initializeObject.isValid = true;
+    scriptInstance.url = returnStringUrl;
+    scriptInstance.msg = isolateScriptMessage;
+    scriptInstance.isValid = true;
   } catch (e) {
     console.log(JSON.stringify(e));
-    initializeObject.isValid = false;
-    return initializeObject;
+    scriptInstance.isValid = false;
+    return false;
   }
 
-  return initializeObject;
+  return true;
 };
