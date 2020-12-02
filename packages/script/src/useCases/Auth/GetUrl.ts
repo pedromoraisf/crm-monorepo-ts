@@ -1,9 +1,4 @@
-export interface IStorageObject {
-  id: number;
-  url: string;
-  msg: string;
-  isValid: boolean;
-}
+import { IStorageObject } from "@src/useCases/Auth";
 
 /**
  * @description Responsável por injetar a url ao objeto

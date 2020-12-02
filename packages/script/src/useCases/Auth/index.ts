@@ -1,5 +1,6 @@
 import { GetUrl } from "@src/useCases/Auth/GetUrl";
 import { AuthUrl } from "@src/useCases/Auth/AuthUrl";
+import { AuthComputate } from "@src/useCases/Auth/AuthComputate";
 
 export interface IStorageObject {
   id: number;
@@ -17,7 +18,8 @@ export const SCRIPT_INSTANCE = {
 
 export default async (): Promise<IStorageObject> => {
   GetUrl(SCRIPT_INSTANCE);
-  await AuthUrl(SCRIPT_INSTANCE);
+  AuthUrl(SCRIPT_INSTANCE);
+  await AuthComputate(SCRIPT_INSTANCE);
 
   return SCRIPT_INSTANCE;
 };

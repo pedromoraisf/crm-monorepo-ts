@@ -4,14 +4,16 @@ import { AuthUrl } from "@src/useCases/Auth/AuthUrl";
 const testEnv = "http://localhost:3000";
 
 describe("Autenticação pela url", () => {
-  it("Realiza a ação de autenticação dos valores passados na url", async () => {
+  it("Realiza a ação de autenticação dos valores passados na url", () => {
     const sample = {
       id: 0,
       url: `${testEnv}/?sccripts`,
       msg: "",
       isValid: false,
     };
-    const authInvalidUrl = await AuthUrl(sample);
-    expect(authInvalidUrl).toBe(false);
+
+    AuthUrl(sample);
+
+    expect(sample).toStrictEqual(sample);
   });
 });
