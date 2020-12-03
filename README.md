@@ -11,6 +11,8 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Envio de e-mail caso o usuário não termine de completar o formulário
+- [ ] Release 😈
+- [ ] Action de testes pra cada package
 
 ## 💻 Pré-requisitos
 
