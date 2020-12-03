@@ -12,6 +12,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Envio de e-mail caso o usuário não termine de completar o formulário
 - [ ] Release 😈
+- [ ] Cobertura do coverage
 - [ ] Action de testes pra cada package
 
 ## 💻 Pré-requisitos
