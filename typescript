@@ -1,0 +1,129 @@
+Script started on Thu Dec  3 18:44:33 2020
+ls
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/js^C[0m[27m[24m[J[K[193C$(spaceship_rprompt)[?1h=[?2004h[H[2J[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[4ms[24m[4ms[4mc[24m[4ms[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[24m[32ms[24m[32mc[24m[32mr[24m[32mi[24m[32mp[32mt[39m[4m[32ms[4m[32mc[4m[32mr[4m[32mi[4m[32mp[4m[32mt[4m[32ms[24m[39m[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/scripts]1;..rm/js/scripts[0m[27m[24m[J
+[1m[0m[1m[36mjs/scripts[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[31mpull.sh[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/scripts]1;..rm/js/scripts[0m[27m[24m[J
+[1m[0m[1m[36mjs/scripts[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m[1m[31mc[1m[31md[1m[31m.[0m[39m[1m[31m.[1m[31m.[0m[39m[?1l>[?2004l
+]2;cd..]1;cd..zsh: command not found: cd..
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/scripts]1;..rm/js/scripts[0m[27m[24m[J
+[1m[0m[1m[36mjs/scripts[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/jsl[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mnode_modules[39;49m[0m package.json [1m[36mpackages[39;49m[0m     [1m[36mscripts[39;49m[0m      typescript   yarn.lock
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/js[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[4mp[24m[4mp[4ma[24m[24m[1m[31mp[24m[1m[31ma[1m[31mb[0m[39m[1m[31mb[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[1m[31ma[0m[39m[0m[39m [1m[31mb[0m[39m[0m[39m [0m[39m[4mp[0m[39m[4ma[24m[0m[39m [4mp[4ma[4mc[24m[4mc[4mk[24m[4mk[4ma[24m[4ma[4mge[24m[24mp[24ma[24mc[24mk[24ma[24mg[24me
+[J[0mpackage-stash-conflicts      [Jpackage-stash-conflicts5.18  [Jpackage-stash-conflicts5.28  [Jpackage-stash-conflicts5.30  [J[1;31mpackages[0m/                  [J[A[0m[27m[24m[0m[39m[2Cpackage[K[0m[39m-stash-conflicts
+[J[7mpackage-stash-conflicts    [0m  [Jpackage-stash-conflicts5.18  [Jpackage-stash-conflicts5.28  [Jpackage-stash-conflicts5.30  [J[1;31mpackages[0m/                  [J[A[0m[27m[24m[0m[39m[2Cpackage-stash-conflicts[K[0m[39m
+[7mpackage-stash-conflicts    [0m  [7mpackage-stash-conflicts    [0m  [A[0m[27m[24m[0m[39m[2Cpackage-stash-conflicts[K[0m[39m5.18
+[29C[7mpackage-stash-conflicts5.18[0m  package-stash-conflicts      [A[0m[27m[24m[0m[39m[2Cpackage-stash-conflicts5.18[K[0m[39m2[1C
+[58C[7mpackage-stash-conflicts5.28[0m  [29Cpackage-stash-conflicts5.18  [A[0m[27m[24m[0m[39m[2Cpackage-stash-conflicts5.28[K[0m[39m30
+[87C[7mpackage-stash-conflicts5.30[0m  [58Cpackage-stash-conflicts5.28  [A[0m[27m[24m[0m[39m[2Cpackage-stash-conflicts5.30[K[0m[39m[20Ds[1m/[0m                  [18D
+[116C[7mpackages/                  [0m[87Cpackage-stash-conflicts5.30  [A[0m[27m[24m[0m[39m[2Cpackages[1m/[0m[K[0m[39m
+[J[A[11C[9D[4m[32mp[4m[32ma[4m[32mc[4m[32mk[4m[32ma[4m[32mg[4m[32me[4m[32ms[1m[4m[32m/[0m[24m[39m[4m[32ms[24m[39m[0m[24m[39m [?1l>[?2004l
+[J]2;packages]1;packages[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/packages]1;..m/js/packagesl[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mscript[39;49m[0m [1m[36mserver[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/packages]1;..m/js/packages[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[4ms[24m[4ms[4mc[24m[4ms[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[24m[32ms[24m[32mc[24m[32mr[24m[32mi[24m[32mp[32mt[39m[?1l>[?2004l
+]2;script]1;scriptScript started, output file is typescript
+ls^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/packages]1;..m/js/packages^L[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?1h=[?2004h[H[2J[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m
+[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[1m[31mc[0m[39m[0m[32mc[32md[39m [4ms[24m[4ms[4mc[24m[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[4mp[4mt[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/packages/script]1;..ckages/script[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages/script[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31mo[0m[39m[1m[31mc[1m[31mo[1m[31md[0m[39m[0m[32mc[0m[32mo[0m[32md[32me[39m [4m.[24m[?1l>[?2004l
+]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js/packages/script]1;..ckages/script[0m[27m[24m[J
+[1m[0m[1m[36mjs/packages/script[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[4m[32m.[4m[32m.[4m[32m/[24m[39m[4m[32m/[4m[32m.[24m[39m[4m[32m.[4m[32m.[24m[39m[4m[32m.[4m[32m/[24m[39m[?1l>[?2004l
+]2;../../]1;../../[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/jscode [0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004hccode[32mc[32mo[32md[32me[39m [39m [39m [39m [39m [1m[31ma[0m[39m[0m[32ma[32mt[39m [4mp[24m[4mp[4ma[24m[4ma[4mc[24m[4mc[4mk[24m[4mk[4ma[24m[8D[39ma[39mt [24mp[24ma[24mc[24mk[24ma[8D        [8D[1m[31mc[0m[39m[1m[31mc[1m[31ma[0m[39m[0m[32mc[0m[32ma[32mt[39m a [4mp[24m[4mp[4ma[24m[4ma[4mc[24m[4mc[4mk[24m[4mk[4ma[24m[4ma[4mge[24m[4me[4m.[24m[4m.[4mj[24m[4mj[4ms[24m[4ms[4mon[24m[1m [0m[0m [?1l>[?2004l
+]2;cat package.json]1;cat{
+  "name": "senai-jornada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pedromoraisf <pedro.morais1997@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "robot:go": "./scripts/pull.sh",
+    "lint": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js",
+    "lint:fix": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js --fix",
+    "style:check": "prettier --check './packages/script/src/*.js' './packages/server/src/*.js' './packages/server/src/controllers/*.js'",
+    "style:fix": "prettier --write './packages/script/src/*.js' './packages/server/src/*.js' './packages/server/src/controllers/*.js'"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/module-alias": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "jest": "^26.6.1",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/js[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[32mcat[39m [4mpackage.json[24m[?1l>[?2004l
+]2;cat package.json]1;cat{
+  "name": "senai-jornada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pedromoraisf <pedro.morais1997@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "robot:go": "./scripts/pull.sh",
+    "lint": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js",
+    "lint:fix": "eslint ./packages/script/src ./packages/script/__test__ ./packages/server/src ./packages/server/__test__ --ext .js --fix",
+    "style:check": "prettier --check './packages/script/src/*.js' './packages/server/src/*.js' './packages/server/src/controllers/*.js'",
+    "style:fix": "prettier --write './packages/script/src/*.js' './packages/server/src/*.js' './packages/server/src/controllers/*.js'"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/module-alias": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "jest": "^26.6.1",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                      ]2;pedromorais@MacBook-Pro-de-Pedro:~/www/estudos/cursos/eng-sw/projetos/crm/js]1;..ojetos/crm/js[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?1h=[?2004h[H[2J[0m[27m[24m[J
+[1m[0m[1m[36mjs[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m dev-pedro[0m[35m[39m[1m[0m[0m[39m[1m [0m[1mis [0m[1m[31m📦 v1.0.0[0m[31m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.15.1[0m[32m[39m[1m [0m
+[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K
