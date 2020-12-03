@@ -1,4 +1,4 @@
-import { IStorageObject } from "@src/useCases/Auth";
+import { IStorageObject } from "@src/Decorators/Auth";
 import { IObserver, cb } from "@src/useCases/Observer";
 
 /**

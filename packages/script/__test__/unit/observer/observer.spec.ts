@@ -1,5 +1,5 @@
 import { Observer } from "@src/useCases/Observer/Observer.class";
-import { SCRIPT_INSTANCE } from "@src/useCases/Auth";
+import { SCRIPT_INSTANCE } from "@src/Decorators/Auth";
 import "@test/utils/extendToContainObject";
 
 const instanceObserver = Observer.getInstance();

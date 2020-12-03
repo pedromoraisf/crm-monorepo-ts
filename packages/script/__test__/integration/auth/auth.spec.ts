@@ -1,4 +1,4 @@
-// import SCRIPT_INSTANCE from "@src/useCases/Auth";
+// import SCRIPT_INSTANCE from "@src/Decorators/Auth";
 
 describe("Decorator AUTH", () => {
   it("Acompanhamento do retorno da função", async () => {

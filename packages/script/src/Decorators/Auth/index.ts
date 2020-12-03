@@ -1,6 +1,6 @@
-import { GetUrl } from "@src/useCases/Auth/GetUrl";
-import { AuthUrl } from "@src/useCases/Auth/AuthUrl";
-import { AuthComputate } from "@src/useCases/Auth/AuthComputate";
+import { GetUrl } from "@src/Decorators/Auth/GetUrl";
+import { AuthUrl } from "@src/Decorators/Auth/AuthUrl";
+import { AuthComputate } from "@src/Decorators/Auth/AuthComputate";
 
 export interface IStorageObject {
   id: number;

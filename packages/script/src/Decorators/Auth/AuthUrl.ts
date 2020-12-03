@@ -1,4 +1,4 @@
-import { IStorageObject } from "@src/useCases/Auth";
+import { IStorageObject } from "@src/Decorators/Auth";
 
 /**
  * @description Método responsável por transpilar a url em string ou retorna-la caso seja mesmo

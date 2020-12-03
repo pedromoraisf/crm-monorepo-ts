@@ -1,5 +1,5 @@
 import { scriptVerifyService } from "@src/services/script-verify";
-import { IStorageObject } from "@src/useCases/Auth";
+import { IStorageObject } from "@src/Decorators/Auth";
 
 /**
  * @description Responsável por extrair o id recebido em parâmetro

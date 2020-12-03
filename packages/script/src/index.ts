@@ -5,7 +5,7 @@ import "./helpers/module-alias";
 //   AuthUrl,
 //   AuthComputate,
 //   IStorageObject,
-// } from "@src/useCases/Auth";
+// } from "@src/Decorators/Auth";
 
 // // Autenticação
 // export const Authentication = async (): Promise<IStorageObject> => {

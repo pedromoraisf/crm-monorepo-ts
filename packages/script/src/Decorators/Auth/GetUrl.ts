@@ -1,4 +1,4 @@
-import { IStorageObject } from "@src/useCases/Auth";
+import { IStorageObject } from "@src/Decorators/Auth";
 
 /**
  * @description Responsável por injetar a url ao objeto
