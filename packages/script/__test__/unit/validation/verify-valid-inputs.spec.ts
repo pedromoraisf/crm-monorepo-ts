@@ -1,3 +1,4 @@
+import { IStorageObject } from "@src/Decorators/Auth";
 import { VerifyValidElements } from "@src/Decorators/Validation/VerifyValidElements";
 
 // Considerando que a URL chegue assim: http://localhost:5000/?script=4
@@ -9,12 +10,13 @@ describe("Verificação de inputs", () => {
   });
 
   it("Verifica se os inputs do script do usuário são validos", () => {
-    const sample = {
+    const sample: IStorageObject = {
       id: 1,
       url: `${testEnv}/?sccripts`,
       inputPath: "#input-test",
       formPath: "#form",
       formElement: null,
+      inputContents: false,
       inputElement: null,
       msg: "Mensagem de teste",
       isValid: true,

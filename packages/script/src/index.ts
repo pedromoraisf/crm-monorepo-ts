@@ -10,8 +10,8 @@ import {
   ScriptIsValid,
   SetterInput,
 } from "@src/Decorators/Validation";
-import { SendMail } from "@src/Decorators/Actions";
 import ObserverInstance from "@src/useCases/Observer";
+import TreatMailAction from "@src/useCases/TreatMailAction";
 
 // Camada de Autenticação
 GetUrl(SCRIPT_INSTANCE);
@@ -31,10 +31,14 @@ ObserverInstance.attach(SCRIPT_INSTANCE);
 if (SCRIPT_INSTANCE.inputElement !== null)
   SCRIPT_INSTANCE.inputElement.addEventListener("input", () => {
     SetterInput(SCRIPT_INSTANCE);
+    const inputAction = new TreatMailAction();
+    inputAction.fireMail();
   });
 
 // Evento de disparo da action de email
 if (SCRIPT_INSTANCE.formElement !== null)
-  SCRIPT_INSTANCE.formElement.addEventListener("input", () => {
-    ObserverInstance.notify(SendMail);
+  SCRIPT_INSTANCE.formElement.addEventListener("click", (e) => {
+    const formAction = new TreatMailAction(e);
+    const submitedForm = formAction.verifySubmitClick();
+    if (submitedForm) formAction.eraseAction();
   });
