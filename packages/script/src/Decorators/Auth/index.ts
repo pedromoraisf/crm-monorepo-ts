@@ -6,8 +6,9 @@ export interface IStorageObject {
   id: number;
   url: string;
   inputPath: string;
-  formPath: string;
   inputElement: Element | null;
+  inputContents: string;
+  formPath: string;
   formElement: Element | null;
   msg: string;
   isValid: boolean;
@@ -18,8 +19,9 @@ export const SCRIPT_INSTANCE = {
   id: 0,
   url: "",
   inputPath: "",
-  formPath: "",
   inputElement: null,
+  inputContents: "",
+  formPath: "",
   formElement: null,
   msg: "",
   isValid: false,

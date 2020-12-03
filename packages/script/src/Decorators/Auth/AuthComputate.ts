@@ -30,7 +30,7 @@ export const AuthComputate = async (
   try {
     const requestScript = await scriptVerifyService(scriptId);
 
-    if (requestScript.status !== 200 && requestScript.data.status === 200)
+    if (requestScript.status !== 200 || requestScript.data.status !== 200)
       throw { e: "Erro na requisição" };
 
     // Fazendo o bootstraping no objeto
@@ -38,7 +38,7 @@ export const AuthComputate = async (
     scriptInstance.inputPath = requestScript.data.inputPath;
     scriptInstance.formPath = requestScript.data.formPath;
   } catch (e) {
-    console.log(JSON.stringify(e));
+    console.error(JSON.stringify(e));
     scriptInstance.isValid = false;
   }
 };
