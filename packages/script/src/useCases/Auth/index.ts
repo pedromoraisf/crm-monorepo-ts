@@ -26,10 +26,4 @@ export const SCRIPT_INSTANCE = {
   latestAction: 0,
 };
 
-export default async (): Promise<IStorageObject> => {
-  GetUrl(SCRIPT_INSTANCE);
-  AuthUrl(SCRIPT_INSTANCE);
-  await AuthComputate(SCRIPT_INSTANCE);
-
-  return SCRIPT_INSTANCE;
-};
+export { GetUrl, AuthUrl, AuthComputate };

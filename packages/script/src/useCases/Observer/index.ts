@@ -1,12 +1,14 @@
-import SCRIPT_INSTANCE from "@src/useCases/Auth";
 import { IStorageObject } from "@src/useCases/Auth";
+import { VerifyValidElements } from "@src/useCases/Observer/VerifyValidElements";
 
+export type cb = (instanceScript: IStorageObject) => void; // ??
 export interface IObserver {
-  observers: IStorageObject[];
   attach(instanceScript: IStorageObject): void;
   detach(instanceScript: IStorageObject): void;
-  update(): void;
+  notify(fn: cb): void;
 }
+
+export { VerifyValidElements };
 
 // Primeiramente verifico se os inputs de formulário e input do usuario sao validos
 // Então aplico nos listeners os eventos de update
