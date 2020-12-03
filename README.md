@@ -1,10 +1,8 @@
 # CRM Monorepo (Node x TS)
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
 ![GitHub language count](https://img.shields.io/github/languages/count/pedromoraisf/crm-monorepo-ts?style=for-the-badge)
 
-> Scripting e server para um projeto GUI de CRM escrito em C Lang (para faculdade).
+> Scripting e server para um projeto CLI de CRM escrito em C Lang (para faculdade).
 
 ### Ajustes e melhorias
 
