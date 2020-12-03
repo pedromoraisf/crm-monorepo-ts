@@ -1,4 +1,4 @@
-import { extractScriptId } from "@src/useCases/Auth/AuthComputate";
+import { extractScriptId } from "@src/Decorators/Auth/AuthComputate";
 
 const testEnv = "http://localhost:3000";
 

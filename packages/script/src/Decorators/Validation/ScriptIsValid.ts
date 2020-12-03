@@ -15,7 +15,7 @@ export const isValid = (scriptInstance: IStorageObject): boolean => {
 export const ScriptIsValid = (scriptInstance: IStorageObject): void => {
   try {
     const scriptIsValid = isValid(scriptInstance);
-    if (scriptIsValid) throw { e: "Validation: Script está invalido" };
+    if (!scriptIsValid) throw { e: "Validation: Script está invalido" };
   } catch (e) {
     console.log(JSON.stringify(e));
   }

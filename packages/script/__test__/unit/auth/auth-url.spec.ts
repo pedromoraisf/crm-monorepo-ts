@@ -1,4 +1,4 @@
-import { AuthUrl } from "@src/useCases/Auth/AuthUrl";
+import { AuthUrl } from "@src/Decorators/Auth/AuthUrl";
 
 // Considerando que a URL chegue assim: http://localhost:5000/?script=4
 const testEnv = "http://localhost:3000";
@@ -9,9 +9,10 @@ describe("Autenticação pela url", () => {
       id: 0,
       url: `${testEnv}/?sccripts`,
       inputPath: "",
+      inputElement: null,
+      inputContents: "",
       formPath: "",
       formElement: null,
-      inputElement: null,
       msg: "",
       isValid: false,
       latestAction: 0,

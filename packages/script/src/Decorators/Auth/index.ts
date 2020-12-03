@@ -7,7 +7,7 @@ export interface IStorageObject {
   url: string;
   inputPath: string;
   inputElement: Element | null;
-  inputContents: string;
+  inputContents: string | boolean;
   formPath: string;
   formElement: Element | null;
   msg: string;
@@ -15,12 +15,12 @@ export interface IStorageObject {
   latestAction: number;
 }
 
-export const SCRIPT_INSTANCE = {
+export const SCRIPT_INSTANCE: IStorageObject = {
   id: 0,
   url: "",
   inputPath: "",
   inputElement: null,
-  inputContents: "",
+  inputContents: false,
   formPath: "",
   formElement: null,
   msg: "",

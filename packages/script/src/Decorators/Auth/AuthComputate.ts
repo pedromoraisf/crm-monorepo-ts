@@ -31,7 +31,7 @@ export const AuthComputate = async (
     const requestScript = await scriptVerifyService(scriptId);
 
     if (requestScript.status !== 200 || requestScript.data.status !== 200)
-      throw { e: "Erro na requisição" };
+      throw { e: "AuthComputate: Erro na requisição" };
 
     // Fazendo o bootstraping no objeto
     scriptInstance.msg = requestScript.data.msg;
